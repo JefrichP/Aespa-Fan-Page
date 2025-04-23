@@ -44,6 +44,42 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
+/* Banner Section */
+.main-banner {
+    background-color: lightgray;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text-banner h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: purple;
+}
+
+.text-banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-banner p {
+    font-size: 1.2rem;
+    color: purple;
+    margin: 0;
+}
+/* End of Banner Section */
+
 body {
-    margin-top: 80px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
