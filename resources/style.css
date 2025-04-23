@@ -187,6 +187,10 @@
     margin: 10px 0;
 }
 
+.member-card img:hover {
+    transform: scale(1.20);
+  }
+
 body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
