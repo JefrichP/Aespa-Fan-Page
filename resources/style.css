@@ -288,6 +288,20 @@
     height: 515px;
     border-radius: 10px;
 }
+/* End of Video Section */
+
+/* Footer Section */
+footer {
+    background-color: #D8B9FF;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    position: relative; /* Position relative to the viewport */
+    bottom: 0; /* Stick to the bottom of the page */
+    width: 100%;
+}
+/* End of Footer Section */
 
 /* Global Styles */
 body {
