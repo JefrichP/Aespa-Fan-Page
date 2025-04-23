@@ -136,3 +136,12 @@ body {
     padding: 0; /* Remove default padding */
     font-family: Arial, sans-serif; /* Set a default font */
 }
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: purple; /* Change color on hover */
+}
+
+a:active {
+    color: blue; /* Change color when link is active */
+}
