@@ -21,23 +21,23 @@
     width: auto;
 }
 
-nav {
+.nav-container nav {
     flex: 1;
     text-align: center;
 }
 
-nav ul {
+.nav-container nav ul {
     display: inline-flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+.nav-container nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
+.nav-container nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -79,7 +79,59 @@ nav ul li a {
 }
 /* End of Banner Section */
 
+/* About Section */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Spacing between the sections */
+    margin: 20px auto;
+    max-width: 2000px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-text, .facts-text {
+    flex: 1; /* Make both sections take up equal space */
+    max-width: 50%;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-text img, .facts-text img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.about-text h1, .facts-text h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: purple;
+}
+
+.about-text p, .facts-text ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    margin: 10px 0;
+}
+
+.facts-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
 body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a default font */
 }
