@@ -1,3 +1,4 @@
+/* Navigation Bar */
 .nav-container {
     position: fixed;
     top: 0;
@@ -43,6 +44,7 @@
     font-weight: bold;
     font-size: 1.5rem;
 }
+/* End of Navigation Bar */
 
 /* Banner Section */
 .main-banner {
@@ -157,7 +159,7 @@
 }
 
 .member-card {
-    flex: 0 1 calc(48% - 20px); /* Ensure each column takes up 48% of the row minus the gap */
+    flex: 0 1 calc(48% - 20px);
     border: 2px solid purple;
     border-radius: 10px;
     padding: 20px;
@@ -168,7 +170,7 @@
 
 .member-card img {
     max-width: 100%; /* Ensure the image fits within the container */
-    height: 800px; /* Maintain the aspect ratio */
+    height: 800px; /* Set a fixed height for the image */
     border-radius: 10px;
     margin-bottom: 10px;
     object-fit: cover; /* Ensure the image scales properly */
@@ -190,16 +192,21 @@
 .member-card img:hover {
     transform: scale(1.20);
   }
+/* End of Members Section */
 
+/* Global Styles */
 body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     font-family: Arial, sans-serif; /* Set a default font */
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
-    text-decoration: underline; /* Underline links on hover */
-    color: purple; /* Change color on hover */
+    color: #D8B9FF; /* Change color on hover */
 }
 
 a:active {
