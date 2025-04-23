@@ -194,6 +194,50 @@
   }
 /* End of Members Section */
 
+/* Music Section */
+#music {
+    text-align: center;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#music h1, h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: purple;
+    text-align: center;
+}
+
+.video-row {
+    display: flex;
+    justify-content: space-between; /* Add space between the columns */
+    gap: 20px; /* Add consistent spacing between the columns */
+    margin: 0;
+    padding: 10px; /* Add padding only on the sides for spacing */
+    padding-bottom: 30px;  /* Add padding at the bottom for spacing */
+    width: 100%; /* Ensure the row spans the full width of the page */
+    box-sizing: border-box;
+}
+
+.video-box {
+    flex: 0 1 calc(50% - 20px);
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 515px;
+    border-radius: 10px;
+}
+/* End of Music Section */
+
 /* Global Styles */
 body {
     margin: 0; /* Remove default margin */
