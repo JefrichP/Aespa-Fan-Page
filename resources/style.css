@@ -121,14 +121,15 @@
     line-height: 1.5;
     color: black;
     margin: 10px 0;
+    text-align: justify;
 }
 
 .facts-text ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: justify;
 }
+/* End of About Section */
 
 body {
     margin: 0; /* Remove default margin */
