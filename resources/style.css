@@ -319,5 +319,5 @@ a:hover {
 }
 
 a:active {
-    color: blue; /* Change color when link is active */
+    opacity: 50%;
 }
