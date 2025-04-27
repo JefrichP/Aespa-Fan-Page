@@ -303,6 +303,32 @@ footer {
 }
 /* End of Footer Section */
 
+/* Bias button section */
+.answer {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 20%;
+    font-size: 2rem;
+    color: black;
+    background-color: #D8B9FF;
+    border-radius: 10px;
+    box-shadow: 0px 4px;
+}
+
+.answer:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.answer:active {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px;
+}
+
 /* Global Styles */
 body {
     margin: 0; /* Remove default margin */
