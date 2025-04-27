@@ -319,7 +319,7 @@ footer {
 }
 
 .answer:hover {
-    opacity: 50%;
+    opacity: 70%;
     cursor: pointer;
 }
 
@@ -327,6 +327,7 @@ footer {
     margin-top: 24px;
     margin-bottom: 16px;
     box-shadow: 0px 0px;
+    color: white;
 }
 /* End of Bias button section */
 
